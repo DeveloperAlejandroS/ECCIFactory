@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio ECCI</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shorchut icon" href="Assets/img/LogoNoBG.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a class="logo" href="#Banner">
+                <img src="Assets/img/Logo2.png" alt="RadioECCI">
+            </a>
+            <nav>
+                <a href="#Tune"> Sintonizar</a>
+                <a href="#AboutUs"> Sobre nosotros</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="Banner">
+        <h1>RADIO <span class="ascent">E</span><span class="ascent2">C</span><span class="ascent3">C</span><span class="ascent">I</span> 2023</h1>
+        <p>Gracias por unirte a nosotros en Radio ECCI. ¡Comencemos este viaje juntos.</p>
+        <form action="#Tune">
+            <button>SINTONIZAR</button>
+        </form>
+    </section>
+
+    <section id="AboutUs">
+        <div class="container">
+            <h1>ACERCA DE RADIO<span class="ascent">E</span><span class="ascent2">C</span><span class="ascent3">C</span><span class="ascent">I</span></h1>
+            <p>RadioECCI conectate y sumérgete en un fascinante universo de conocimiento, cultura y entretenimiento. Estamos aquí para mantenerte informado, inspirarte y llenarte de energía.</p>
+        </div>
+        
+    </section>
+
+    <section id="Tune">
+        <h1>Escuchanos en vivo!</h1>
+        <div class="container">
+            <img id="OnAir" src="Assets/img/live.png" alt="OnLine" style="display: none;" >
+            <img id="Offline" src="Assets/img/Offline.png" alt="Offline" style="display: block;">
+            
+            <audio id="reproductor" controls>
+                <source src="https://freeuk28.listen2myradio.com/live.mp3?typeportmount=s1_37141_stream_950425974" type="audio/mpeg">
+            </audio>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <p>©RadioECCI</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
