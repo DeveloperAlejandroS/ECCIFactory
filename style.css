@@ -95,6 +95,10 @@ header a:hover{
     background-color: #0c2744;
 }
 
+#AboutUs p{
+    margin: 40px;
+}
+
 #AboutUs .container{
     text-align: center;
     padding: 200px 12px;
