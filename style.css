@@ -189,7 +189,7 @@ header a:hover{
     justify-content: space-around;
 }
 
-.Socialcard {
+#Social .Socialcard {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -206,35 +206,35 @@ header a:hover{
     transition: background-color 0.3s; /* Agregar transición para el cambio de color de fondo */
 }
 
-.Socialcard:hover {
+#Social .Socialcard:hover {
     background-color: #f1ab2e; /* Cambiar este color de fondo en el hover */
 }
 
-.Socialcard img {
+#Social .Socialcard img {
     width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
     height: auto; /* Ajusta el tamaño de la imagen según tus necesidades */
     margin-bottom: 10px;
 }
 
-.Socialcard p {
+#Social .Socialcard p {
     margin: 10px 0;
     font-weight: bold;
 }
 
-.Socialcard a{
+#Social .Socialcard a{
     text-decoration: none;
 }
 
-.Socialcard span {
+#Social .Socialcard span {
     font-style: italic;
 }
 
 
-.FacebookLink {
+#Social .FacebookLink {
     color: #1877f2; /* Color del enlace de Facebook */
 }
 
-.Survey {
+#Social .Survey {
     color: #4caf50; /* Color del enlace de la encuesta */
 }
 
