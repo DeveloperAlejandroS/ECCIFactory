@@ -34,3 +34,4 @@ document.addEventListener('DOMContentLoaded', function() {
         tarjeta.style.backgroundColor = '#1a1a1a'; // Fondo oscuro si el modo oscuro está activado
     }
 });
+
