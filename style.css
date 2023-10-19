@@ -128,8 +128,13 @@ header a:hover{
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+#cardcontainer{
+    display: flex;
+    flex-direction: row;
 }
 #Tune h1{
     color:#0c2744;
@@ -165,13 +170,82 @@ header a:hover{
 }
 
 
+/* Estilos para la sección de redes sociales */
+/* Estilos para la sección de redes sociales */
+#Social {
+    background-color: #0c2642;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#Social h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #f3f3f3;
+}
+
+#Social .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Socialcard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #144171; /* Cambiar este color de fondo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Ancho de cada tarjeta */
+    text-align: center;
+    text-decoration: none; /* Quitar el subrayado del enlace */
+    color: whitesmoke; /* Cambiar el color del texto dentro de la tarjeta */
+    transition: background-color 0.3s; /* Agregar transición para el cambio de color de fondo */
+}
+
+.Socialcard:hover {
+    background-color: #f1ab2e; /* Cambiar este color de fondo en el hover */
+}
+
+.Socialcard img {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-bottom: 10px;
+}
+
+.Socialcard p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.Socialcard a{
+    text-decoration: none;
+}
+
+.Socialcard span {
+    font-style: italic;
+}
+
+
+.FacebookLink {
+    color: #1877f2; /* Color del enlace de Facebook */
+}
+
+.Survey {
+    color: #4caf50; /* Color del enlace de la encuesta */
+}
+
+
 #footer{
-    background-color: #0c2744;
+    background-color: #f3f3f3;
 }
 
 #footer p{
     margin: 0;
-    color: white;
+    color: #0c2642;
 }
 
 #footer .container{
