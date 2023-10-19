@@ -95,14 +95,17 @@ header a:hover{
     background-color: #0c2744;
 }
 
-#AboutUs p{
-    margin: 40px;
+#AboutUs h1{
+    text-align: center;
 }
 
 #AboutUs .container{
-    text-align: center;
+    text-align: justify;
     padding: 200px 12px;
+    margin: 50px;
     color: white;
+    orphans: 3;
+    widows: 3;
 }
 
 #Tune {
