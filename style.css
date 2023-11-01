@@ -152,8 +152,8 @@ header a:hover{
     border-radius: 10px; /* Bordes redondeados para la tarjeta */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra para efecto de elevación */
     padding: 20px; /* Espaciado interno */
-    width: 300px; /* Ancho máximo de la tarjeta */
-    height: 200px;
+    width: 500px; /* Ancho máximo de la tarjeta */
+    height: 400px;
     margin: 0 auto; /* Centrar la tarjeta en la página */
     text-align: center; /* Centrar el contenido dentro de la tarjeta */
     display: flex; /* Utilizar flexbox para alinear los elementos internos */
@@ -241,6 +241,8 @@ header a:hover{
 
 #footer .container{
     height: 60px;
+    background-color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: flex-end;
